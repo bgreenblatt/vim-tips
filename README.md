@@ -71,5 +71,5 @@ As suggested in this stackoverflow answer:  [https://stackoverflow.com/a/5767633
     * :set spell will turn it on
     * To move to a misspelled word, use ]s and [s
     * Once the cursor is on the word, use z=, and Vim will suggest a list of alternatives that it thinks may be correct
-    *   " For all markdown files turn on spell check
+    *   For all markdown files turn on spell check in vimrc likw this
         * autocmd FileType Markdown setlocal spell
