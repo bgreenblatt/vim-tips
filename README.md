@@ -73,3 +73,4 @@ As suggested in this stackoverflow answer:  [https://stackoverflow.com/a/5767633
     * Once the cursor is on the word, use z=, and Vim will suggest a list of alternatives that it thinks may be correct
     *   For all markdown files turn on spell check in vimrc likw this
         * autocmd FileType Markdown setlocal spell
+1. Assuming that you have a single quoted string on a line, you can go to the closing quote by typing: `$F"`. This goes to the end of the line and searches backwards for `"`.
