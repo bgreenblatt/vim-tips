@@ -52,7 +52,7 @@ ino {;&lt;CR> {&lt;CR>};&lt;ESC>O
         4. the 2nd x deletes the opening paren
     * the above only works if the cursor is on or before the opening paren.  If you’re inside the parens, you need an extra % at the beginning to move the cursor back to the opening paren: _%%x``x_ 
     * If you just want to delete everything within the parens (including the parens) use _d%,_
-16. If you have multiple windows open with different files, you can get them to scroll synchronously.  Use the _scrollbind _setting, so type: _:set scb! _in each window that you want to synchronize scrolling.
+16. If you have multiple windows open with different files, you can get them to scroll synchronously.  Use the __scrollbind__ setting, so type: __:set scb!__ in each window that you want to synchronize scrolling.
 17. To replace the last occurrence of a string on a line, The easiest way would be to allow arbitrary text in front of the match, and specify the matched region using \zs:
     * :%s/.*\zsone/two/
 18. To copy text to the clipboard so you can paste outside of vim, do this: 
