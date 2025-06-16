@@ -74,3 +74,4 @@ As suggested in this stackoverflow answer:  [https://stackoverflow.com/a/5767633
     *   For all markdown files turn on spell check in vimrc likw this
         * autocmd FileType Markdown setlocal spell
 1. Assuming that you have a single quoted string on a line, you can go to the closing quote by typing: `$F"`. This goes to the end of the line and searches backwards for `"`.
+2. If you have cscope integration turned on and you want to find uses of the symbol under the cursor, you can use `:cs f s CTRL-R CTRL-W`
